@@ -62,6 +62,7 @@ public class Sobre extends JDialog {
 		getContentPane().add(lblNewLabel_2);
 		
 		JLabel lblWebService = new JLabel("republicavirtual.com.br");
+		lblWebService.setForeground(SystemColor.textHighlight);
 		lblWebService.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
@@ -79,7 +80,7 @@ public class Sobre extends JDialog {
 		btnGitHub.setBackground(SystemColor.control);
 		btnGitHub.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
-				link("");
+				link("https://github.com/VagnerUrata/BuscaCep");
 			}
 		});
 		btnGitHub.setBounds(40, 165, 48, 48);
